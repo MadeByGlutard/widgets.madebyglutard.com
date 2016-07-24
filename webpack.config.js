@@ -11,6 +11,9 @@ module.exports = {
     path: 'dist',
     filename: '[name].js'
   },
+  // resolve: {
+  //   modulesDirectories: ['node_modules', '.']
+  // },
   module: {
     loaders: [{
       test: /\.js$/,
